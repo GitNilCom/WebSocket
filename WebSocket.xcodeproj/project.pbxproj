@@ -17,6 +17,8 @@
 		2458334024A87749003185BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2458333F24A87749003185BE /* main.m */; };
 		2458334A24A87749003185BE /* WebSocketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2458334924A87749003185BE /* WebSocketTests.m */; };
 		2458335524A87749003185BE /* WebSocketUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2458335424A87749003185BE /* WebSocketUITests.m */; };
+		2459B9CE24A9E2B700FB138D /* WebSocketLog.png in Resources */ = {isa = PBXBuildFile; fileRef = 2459B9CC24A9E2B700FB138D /* WebSocketLog.png */; };
+		2459B9D124A9E2E800FB138D /* WebSocketInterface.png in Resources */ = {isa = PBXBuildFile; fileRef = 2459B9D024A9E2E800FB138D /* WebSocketInterface.png */; };
 		24C34BC824A986F2009E6E79 /* WebSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C34BC724A986F2009E6E79 /* WebSocketManager.m */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +60,8 @@
 		2458335024A87749003185BE /* WebSocketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebSocketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2458335424A87749003185BE /* WebSocketUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebSocketUITests.m; sourceTree = "<group>"; };
 		2458335624A87749003185BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2459B9CC24A9E2B700FB138D /* WebSocketLog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WebSocketLog.png; sourceTree = "<group>"; };
+		2459B9D024A9E2E800FB138D /* WebSocketInterface.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WebSocketInterface.png; sourceTree = "<group>"; };
 		24C34BC624A986F2009E6E79 /* WebSocketManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebSocketManager.h; sourceTree = "<group>"; };
 		24C34BC724A986F2009E6E79 /* WebSocketManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebSocketManager.m; sourceTree = "<group>"; };
 		EE0B1D41AB3879737BCC8F30 /* Pods-WebSocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebSocket.release.xcconfig"; path = "Target Support Files/Pods-WebSocket/Pods-WebSocket.release.xcconfig"; sourceTree = "<group>"; };
@@ -151,6 +155,8 @@
 		24C34BC524A986E3009E6E79 /* WebSocketManager */ = {
 			isa = PBXGroup;
 			children = (
+				2459B9CC24A9E2B700FB138D /* WebSocketLog.png */,
+				2459B9D024A9E2E800FB138D /* WebSocketInterface.png */,
 				24C34BC624A986F2009E6E79 /* WebSocketManager.h */,
 				24C34BC724A986F2009E6E79 /* WebSocketManager.m */,
 			);
@@ -278,9 +284,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2459B9CE24A9E2B700FB138D /* WebSocketLog.png in Resources */,
 				2458333D24A87749003185BE /* LaunchScreen.storyboard in Resources */,
 				2458333A24A87749003185BE /* Assets.xcassets in Resources */,
 				2458333824A87747003185BE /* Main.storyboard in Resources */,
+				2459B9D124A9E2E800FB138D /* WebSocketInterface.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

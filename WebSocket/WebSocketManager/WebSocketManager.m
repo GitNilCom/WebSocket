@@ -52,7 +52,7 @@ dispatch_async(dispatch_get_main_queue(), block);\
     if(self.webScoket){
         return;
     }
-    self.webScoket = [[SRWebSocket alloc] initWithURL:[NSURL URLWithString:@"wss://test.wss.dqlp.com.cn"]];
+    self.webScoket = [[SRWebSocket alloc] initWithURL:[NSURL URLWithString:@"Socket服务器地址"]];
     self.webScoket.delegate = self;
     [self.webScoket open];
 }
